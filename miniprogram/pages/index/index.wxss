@@ -1,0 +1,19 @@
+/**index.wxss**/
+.container {
+  background-color: #fff;
+  min-height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 416rpx;
+  background-color: #F2f2f2;
+}
+.swiper-item image{
+    width: 100%;
+    height: 416rpx;
+}
+.slide-image{
+    width: 100%;
+    height: 416rpx;
+}
+

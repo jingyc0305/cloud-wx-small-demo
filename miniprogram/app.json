@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "郎正科技",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#69C3AA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/nav/home_normal.png",
+        "selectedIconPath": "images/nav/home_select.png"
+      },
+      {
+        "pagePath": "pages/userConsole/userConsole",
+        "text": "产品",
+        "iconPath": "images/nav/nav_normal.png",
+        "selectedIconPath": "images/nav/nav_select.png"
+      },
+      {
+        "pagePath": "pages/storageConsole/storageConsole",
+        "text": "视频",
+        "iconPath": "images/nav/tool_normal.png",
+        "selectedIconPath": "images/nav/tool_select.png"
+      },
+      {
+        "pagePath": "pages/databaseGuide/databaseGuide",
+        "text": "联系我们",
+        "iconPath": "images/nav/mine_normal.png",
+        "selectedIconPath": "images/nav/mine_select.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+  
+}
